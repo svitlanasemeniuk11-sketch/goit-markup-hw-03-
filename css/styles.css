@@ -98,8 +98,7 @@ img{
 /* Hero Section */
 .hero-section{
     background-color: #2e2f42;
-    padding-top: 188px;
-    padding-bottom: 292px;
+    padding: 188px 0;
 }
 .hero-title{
     color: #ffffff;
@@ -136,6 +135,10 @@ img{
     height: 1px;
     padding: 0;
     margin: -1px;
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    white-space: nowrap;
     overflow: hidden;
 }
 .features-list{
@@ -149,6 +152,7 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .features-item{
     width: calc((100% - 3 * 24px) / 4);
@@ -166,7 +170,7 @@ img{
     background-color: #f4f4fd;
     padding: 120px 0 120px;
 }
-.team-section-title{
+.section-title{
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -178,7 +182,6 @@ img{
 .team-list{
     display: flex;
     gap: 24px;
-    margin-bottom: 120px;
 }
 .team-item{
     background-color: #ffffff;
@@ -211,15 +214,6 @@ img{
 .portfolio-section{
     padding: 120px 0 120px;
 }
-.portfolio-section-title{
-    color: #2e2f42;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    margin-bottom: 72px;
-}
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
@@ -232,6 +226,8 @@ img{
 }
 .portfolio-card-content{
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;    
 }
 .portfolio-name{
     color: #2e2f42;
