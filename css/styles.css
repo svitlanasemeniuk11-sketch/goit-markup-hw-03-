@@ -141,10 +141,12 @@ img{
     white-space: nowrap;
     overflow: hidden;
 }
+.features-section{
+    padding: 120px 0 120px;
+}
 .features-list{
     display: flex;
     gap: 24px;
-    margin: 120px 0;
 }
 .features-subtitle{
     font-weight: 500;
@@ -248,10 +250,13 @@ img{
     background-color: #2e2f42;
     padding: 100px 0;
 }
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .logo-studio-footer{
     color: #f4f4fd;
     display: inline-block;
-    margin-bottom: 16px;
 }
 .footer-text{
     color: #f4f4fd;
