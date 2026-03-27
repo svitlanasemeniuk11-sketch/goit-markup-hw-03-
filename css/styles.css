@@ -89,7 +89,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 24px 0;
+    padding: 0;
     display: block;
 } 
 .nav-link:hover, .nav-link:focus, .contact-link:hover, .contact-link:focus{
@@ -165,7 +165,6 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    gap: 8px;
 }
 /* Team Section */
 .team-section{
